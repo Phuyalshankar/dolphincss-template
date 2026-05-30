@@ -1,4 +1,20 @@
 {
+  "dolphin-accordion": {
+    "templateFile": "dolphin-accordion.html",
+    "addClasses": ""
+  },
+  "dolphin-avatar": {
+    "templateFile": "dolphin-avatar.html",
+    "addClasses": ""
+  },
+  "dolphin-checkbox": {
+    "templateFile": "dolphin-checkbox.html",
+    "addClasses": ""
+  },
+  "dolphin-tabs": {
+    "templateFile": "dolphin-tabs.html",
+    "addClasses": ""
+  },
   "dolphin-login": {
     "templateFile": "dolphin-login.html",
     "addClasses": ""
