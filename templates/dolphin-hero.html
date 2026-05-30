@@ -1,0 +1,33 @@
+<div className="relative w-full rounded-3xl overflow-hidden min-h-[600px] flex items-center justify-center p-6 lg:p-20">
+  {/* Dynamic Background */}
+  <div className="absolute inset-0 gradient danphe-sunset angle-135 opacity-90"></div>
+  <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] mix-blend-overlay opacity-20"></div>
+  
+  {/* Content Card with Glassmorphism */}
+  <div className="relative z-10 w-full max-w-4xl mx-auto text-center glass bg-surface/30 backdrop-blur-3xl border border-white/20 p-10 lg:p-16 rounded-3xl shadow-2xl">
+    
+    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass bg-white/10 border border-white/20 text-white text-sm font-medium mb-8">
+      <span className="w-2 h-2 rounded-full bg-success animate-pulse"></span>
+      DolphinCSS v2.0 is out!
+    </div>
+    
+    <h1 className="text-5xl lg:text-7xl font-extrabold text-white mb-6 leading-tight drop-shadow-lg">
+      Build UIs that <br />
+      <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-white">Feel Alive</span>
+    </h1>
+    
+    <p className="text-lg lg:text-xl text-white/80 max-w-2xl mx-auto mb-10 font-medium">
+      A modern CSS framework inspired by the ocean and mountains. Packed with glassmorphism, dynamic gradients, and effortless theming.
+    </p>
+    
+    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <button className="px-8 py-4 rounded-xl bg-white text-primary font-bold text-lg hover:bg-surface-alt transition-transform hover:scale-105 shadow-xl w-full sm:w-auto">
+        Get Started
+      </button>
+      <button className="px-8 py-4 rounded-xl glass bg-black/20 border border-white/20 text-white font-bold text-lg hover:bg-black/30 transition-colors w-full sm:w-auto flex items-center justify-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        Watch Video
+      </button>
+    </div>
+  </div>
+</div>

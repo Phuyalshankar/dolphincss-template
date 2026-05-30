@@ -1,0 +1,65 @@
+<div className="w-full max-w-2xl mx-auto glass bg-surface/50 border border-border/50 rounded-3xl overflow-hidden shadow-xl flex flex-col h-[600px]">
+  {/* Chat Header */}
+  <div className="px-6 py-4 border-b border-border/50 flex items-center gap-4 bg-surface/80">
+    <div className="relative">
+      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Dolphin" alt="User" className="w-12 h-12 rounded-full border-2 border-primary object-cover bg-surface" />
+      <span className="absolute bottom-0 right-0 w-3.5 h-3.5 bg-success border-2 border-surface rounded-full"></span>
+    </div>
+    <div>
+      <h3 className="font-bold text-text">Ocean Support</h3>
+      <p className="text-xs text-text-muted">Online</p>
+    </div>
+  </div>
+
+  {/* Chat Messages */}
+  <div className="flex-1 overflow-y-auto p-6 space-y-6">
+    
+    {/* Receiver Message */}
+    <div className="flex items-end gap-3 w-max max-w-[80%]">
+      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Dolphin" className="w-8 h-8 rounded-full border border-border bg-surface" alt="Avatar" />
+      <div className="glass bg-surface border border-border/50 rounded-2xl rounded-bl-none px-5 py-3 shadow-sm">
+        <p className="text-text text-sm">Hello! How can I help you today with DolphinCSS?</p>
+        <span className="text-[10px] text-text-muted mt-1 block">10:30 AM</span>
+      </div>
+    </div>
+
+    {/* Sender Message */}
+    <div className="flex items-end gap-3 w-max max-w-[80%] ml-auto flex-row-reverse">
+      <div className="gradient primary rounded-2xl rounded-br-none px-5 py-3 shadow-joy text-white">
+        <p className="text-sm">Hi! I absolutely love the new glassmorphism utilities! It looks amazing.</p>
+        <span className="text-[10px] text-white/70 mt-1 block text-right">10:32 AM</span>
+      </div>
+    </div>
+    
+    {/* Sender Message 2 */}
+    <div className="flex items-end gap-3 w-max max-w-[80%] ml-auto flex-row-reverse mt-2">
+      <div className="gradient primary rounded-2xl rounded-br-none px-5 py-3 shadow-joy text-white">
+        <p className="text-sm">Is there a dark mode version available for the gradients?</p>
+        <span className="text-[10px] text-white/70 mt-1 block text-right">10:33 AM</span>
+      </div>
+    </div>
+
+    {/* Receiver Message */}
+    <div className="flex items-end gap-3 w-max max-w-[80%]">
+      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Dolphin" className="w-8 h-8 rounded-full border border-border bg-surface" alt="Avatar" />
+      <div className="glass bg-surface border border-border/50 rounded-2xl rounded-bl-none px-5 py-3 shadow-sm">
+        <p className="text-text text-sm">Yes! Just toggle the theme mode. The gradients automatically adjust their brightness and contrast to match.</p>
+        <span className="text-[10px] text-text-muted mt-1 block">10:35 AM</span>
+      </div>
+    </div>
+
+  </div>
+
+  {/* Chat Input */}
+  <div className="p-4 border-t border-border/50 bg-surface/80">
+    <div className="relative flex items-center">
+      <button className="absolute left-3 text-text-muted hover:text-primary transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg>
+      </button>
+      <input type="text" placeholder="Type a message..." className="w-full pl-12 pr-12 py-3 rounded-full glass bg-surface-alt/50 border border-border focus:border-primary outline-none text-text transition-colors" />
+      <button className="absolute right-2 w-9 h-9 flex items-center justify-center rounded-full gradient primary text-white shadow-joy hover:scale-105 transition-transform">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+      </button>
+    </div>
+  </div>
+</div>

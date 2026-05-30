@@ -1,114 +1,158 @@
 {
-    "dolphin-accordion":  {
-                              "templateFile":  "dolphin-accordion.html",
-                              "addClasses":  ""
-                          },
-    "dolphin-avatar":  {
-                           "templateFile":  "dolphin-avatar.html",
-                           "addClasses":  ""
-                       },
-    "dolphin-checkbox":  {
-                             "templateFile":  "dolphin-checkbox.html",
-                             "addClasses":  ""
-                         },
-    "dolphin-tabs":  {
-                         "templateFile":  "dolphin-tabs.html",
-                         "addClasses":  ""
-                     },
-    "dolphin-login":  {
-                          "templateFile":  "dolphin-login.html",
-                          "addClasses":  ""
-                      },
-    "dolphin-register":  {
-                             "templateFile":  "dolphin-register.html",
-                             "addClasses":  ""
-                         },
-    "dolphin-form-floating":  {
-                                  "templateFile":  "dolphin-form-floating.html",
-                                  "addClasses":  ""
-                              },
-    "dolphin-form-standard":  {
-                                  "templateFile":  "dolphin-form-standard.html",
-                                  "addClasses":  ""
-                              },
-    "dolphin-table":  {
-                          "templateFile":  "dolphin-table.html",
-                          "addClasses":  ""
-                      },
-    "dolphin-toast":  {
-                          "templateFile":  "dolphin-toast.html",
-                          "addClasses":  ""
-                      },
-    "dolphin-modal":  {
-                          "templateFile":  "dolphin-modal.html",
-                          "addClasses":  ""
-                      },
-    "dolphin-button":  {
-                           "templateFile":  "dolphin-button.html",
-                           "addClasses":  ""
-                       },
-    "dolphin-card":  {
-                         "templateFile":  "dolphin-card.html",
-                         "addClasses":  ""
-                     },
-    "dolphin-navbar":  {
-                           "templateFile":  "dolphin-navbar.html",
-                           "addClasses":  ""
-                       },
-    "dolphin-alert":  {
-                          "templateFile":  "dolphin-alert.html",
-                          "addClasses":  ""
-                      },
-    "dolphin-badge":  {
-                          "templateFile":  "dolphin-badge.html",
-                          "addClasses":  ""
-                      },
-    "dolphin-header":  {
-                           "templateFile":  "dolphin-header.html",
-                           "addClasses":  ""
-                       },
-    "dolphin-footer":  {
-                           "templateFile":  "dolphin-footer.html",
-                           "addClasses":  ""
-                       },
-    "dolphin-grid":  {
-                         "templateFile":  "dolphin-grid.html",
-                         "addClasses":  ""
-                     },
-    "dolphin-dashboard":  {
-                              "templateFile":  "dolphin-dashboard.html",
-                              "addClasses":  ""
-                          },
-    "dolphin-switch":  {
-                           "templateFile":  "dolphin-switch.html",
-                           "addClasses":  ""
-                       },
-    "dolphin-tooltip":  {
-                            "templateFile":  "dolphin-tooltip.html",
-                            "addClasses":  ""
-                        },
-    "dolphin-slider":  {
-                           "templateFile":  "dolphin-slider.html",
-                           "addClasses":  ""
-                       },
-    "dolphin-dropdown":  {
-                             "templateFile":  "dolphin-dropdown.html",
-                             "addClasses":  ""
-                         },
-    "dolphin-popover":  {
-                            "templateFile":  "dolphin-popover.html",
-                            "addClasses":  ""
-                        },
-    "dolphin-skeleton":  {
-                             "templateFile":  "dolphin-skeleton.html",
-                             "addClasses":  ""
-                         },
-    "dolphin-progress":  {
-                             "templateFile":  "dolphin-progress.html",
-                             "addClasses":  ""
-                         },
-    "dolphin-theme-bar":  {
-                              "templateFile":  "dolphin-theme-bar.html",
-                              "addClasses":  ""
-                          }
+    "dolphin-accordion": {
+        "templateFile": "dolphin-accordion.html",
+        "addClasses": ""
+    },
+    "dolphin-avatar": {
+        "templateFile": "dolphin-avatar.html",
+        "addClasses": ""
+    },
+    "dolphin-checkbox": {
+        "templateFile": "dolphin-checkbox.html",
+        "addClasses": ""
+    },
+    "dolphin-tabs": {
+        "templateFile": "dolphin-tabs.html",
+        "addClasses": ""
+    },
+    "dolphin-login": {
+        "templateFile": "dolphin-login.html",
+        "addClasses": ""
+    },
+    "dolphin-register": {
+        "templateFile": "dolphin-register.html",
+        "addClasses": ""
+    },
+    "dolphin-form-floating": {
+        "templateFile": "dolphin-form-floating.html",
+        "addClasses": ""
+    },
+    "dolphin-form-standard": {
+        "templateFile": "dolphin-form-standard.html",
+        "addClasses": ""
+    },
+    "dolphin-table": {
+        "templateFile": "dolphin-table.html",
+        "addClasses": ""
+    },
+    "dolphin-toast": {
+        "templateFile": "dolphin-toast.html",
+        "addClasses": ""
+    },
+    "dolphin-modal": {
+        "templateFile": "dolphin-modal.html",
+        "addClasses": ""
+    },
+    "dolphin-button": {
+        "templateFile": "dolphin-button.html",
+        "addClasses": ""
+    },
+    "dolphin-card": {
+        "templateFile": "dolphin-card.html",
+        "addClasses": ""
+    },
+    "dolphin-navbar": {
+        "templateFile": "dolphin-navbar.html",
+        "addClasses": ""
+    },
+    "dolphin-alert": {
+        "templateFile": "dolphin-alert.html",
+        "addClasses": ""
+    },
+    "dolphin-badge": {
+        "templateFile": "dolphin-badge.html",
+        "addClasses": ""
+    },
+    "dolphin-header": {
+        "templateFile": "dolphin-header.html",
+        "addClasses": ""
+    },
+    "dolphin-footer": {
+        "templateFile": "dolphin-footer.html",
+        "addClasses": ""
+    },
+    "dolphin-grid": {
+        "templateFile": "dolphin-grid.html",
+        "addClasses": ""
+    },
+    "dolphin-dashboard": {
+        "templateFile": "dolphin-dashboard.html",
+        "addClasses": ""
+    },
+    "dolphin-switch": {
+        "templateFile": "dolphin-switch.html",
+        "addClasses": ""
+    },
+    "dolphin-tooltip": {
+        "templateFile": "dolphin-tooltip.html",
+        "addClasses": ""
+    },
+    "dolphin-slider": {
+        "templateFile": "dolphin-slider.html",
+        "addClasses": ""
+    },
+    "dolphin-dropdown": {
+        "templateFile": "dolphin-dropdown.html",
+        "addClasses": ""
+    },
+    "dolphin-popover": {
+        "templateFile": "dolphin-popover.html",
+        "addClasses": ""
+    },
+    "dolphin-skeleton": {
+        "templateFile": "dolphin-skeleton.html",
+        "addClasses": ""
+    },
+    "dolphin-progress": {
+        "templateFile": "dolphin-progress.html",
+        "addClasses": ""
+    },
+    "dolphin-theme-bar": {
+        "templateFile": "dolphin-theme-bar.html",
+        "addClasses": ""
+    },
+    "dolphin-drawer": {
+        "templateFile": "dolphin-drawer.html",
+        "addClasses": ""
+    },
+    "dolphin-breadcrumbs": {
+        "templateFile": "dolphin-breadcrumbs.html",
+        "addClasses": ""
+    },
+    "dolphin-pagination": {
+        "templateFile": "dolphin-pagination.html",
+        "addClasses": ""
+    },
+    "dolphin-steps": {
+        "templateFile": "dolphin-steps.html",
+        "addClasses": ""
+    },
+    "dolphin-hero": {
+        "templateFile": "dolphin-hero.html",
+        "addClasses": ""
+    },
+    "dolphin-pricing": {
+        "templateFile": "dolphin-pricing.html",
+        "addClasses": ""
+    },
+    "dolphin-carousel": {
+        "templateFile": "dolphin-carousel.html",
+        "addClasses": ""
+    },
+    "dolphin-timeline": {
+        "templateFile": "dolphin-timeline.html",
+        "addClasses": ""
+    },
+    "dolphin-dropzone": {
+        "templateFile": "dolphin-dropzone.html",
+        "addClasses": ""
+    },
+    "dolphin-chat": {
+        "templateFile": "dolphin-chat.html",
+        "addClasses": ""
+    },
+    "dolphin-rating": {
+        "templateFile": "dolphin-rating.html",
+        "addClasses": ""
+    }
 }
