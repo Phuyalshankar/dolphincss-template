@@ -78,5 +78,21 @@
   "dolphin-dashboard": {
     "templateFile": "dolphin-dashboard.html",
     "addClasses": ""
+  },
+  "dolphin-switch": {
+    "templateFile": "dolphin-switch.html",
+    "addClasses": ""
+  },
+  "dolphin-tooltip": {
+    "templateFile": "dolphin-tooltip.html",
+    "addClasses": ""
+  },
+  "dolphin-slider": {
+    "templateFile": "dolphin-slider.html",
+    "addClasses": ""
+  },
+  "dolphin-dropdown": {
+    "templateFile": "dolphin-dropdown.html",
+    "addClasses": ""
   }
 }
