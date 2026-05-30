@@ -1,12 +1,5 @@
-{/* Ultra Simple Native Modal */}
-<dialog className="modal" open>
-  <h3 className="text-2xl font-bold mb-3">Action Required</h3>
-  <p className="opacity-80 mb-6 leading-relaxed">
-    This modal uses the native HTML <code>&lt;dialog&gt;</code> element. 
-    No wrapper divs, no complex positioning classes. Just pure CSS magic!
-  </p>
-  <div className="flex-right gap-3">
-    <button className="outlined plain py-2 px-4 rounded-lg">Cancel</button>
-    <button className="filled primary-500 text-white py-2 px-4 rounded-lg glow">Confirm Action</button>
-  </div>
-</dialog>
+{/* Shadcn-like Accessible Modal (React/JSX Compatible) */}
+{/* To use this modal with React state: 1. Add a state: const [isOpen, setIsOpen] = useState(false) 2. Conditionally render the modal-container based on `isOpen` 3. Attach `onClick={() => setIsOpen(false)}` to the backdrop and close buttons
+*/}
+<div className="modal-container" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-desc"> <div className="modal-wrapper"> {/* The backdrop */} <div className="absolute inset-0 bg-surface-dark/60 backdrop-blur-sm cursor-pointer" aria-hidden="true"></div> {/* The Modal Panel */} <div className="modal-panel md"> <div className="modal-header"> <h3 id="modal-title">Edit Profile</h3> <button aria-label="Close modal">✕</button> </div> <div className="modal-body" id="modal-desc"> <p className="mb-4">Make changes to your profile here. Click save when you're done.</p> <div className="dolphin-form-standard mb-3"> <label htmlFor="name">Name</label> <input type="text" id="name" placeholder="John Doe" /> </div> <div className="dolphin-form-standard"> <label htmlFor="username">Username</label> <input type="text" id="username" placeholder="@johndoe" /> </div> </div> <div className="modal-footer"> <button className="outlined plain py-2 px-4 rounded-lg">Cancel</button> <button className="filled primary py-2 px-4 rounded-lg glow">Save Changes</button> </div> </div> </div>
+</div>

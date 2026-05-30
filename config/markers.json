@@ -94,5 +94,17 @@
   "dolphin-dropdown": {
     "templateFile": "dolphin-dropdown.html",
     "addClasses": ""
+  },
+  "dolphin-popover": {
+    "templateFile": "dolphin-popover.html",
+    "addClasses": ""
+  },
+  "dolphin-skeleton": {
+    "templateFile": "dolphin-skeleton.html",
+    "addClasses": ""
+  },
+  "dolphin-progress": {
+    "templateFile": "dolphin-progress.html",
+    "addClasses": ""
   }
 }
