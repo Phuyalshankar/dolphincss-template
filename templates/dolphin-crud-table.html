@@ -1,0 +1,110 @@
+<div class="glass border border-white/10 rounded-2xl overflow-hidden bg-slate-900 text-white shadow-xl">
+  <!-- Table Header Toolbar -->
+  <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 p-5 border-b border-white/10 bg-slate-950/40">
+    <div class="flex items-center gap-2">
+      <h3 class="text-base font-bold">Manage Records</h3>
+      <span class="px-2 py-0.5 text-xs font-semibold bg-indigo-500/20 text-indigo-300 rounded-full">34 Items</span>
+    </div>
+    <div class="flex items-center flex-wrap gap-2">
+      <!-- Search Input -->
+      <div class="relative flex items-center bg-slate-800/80 border border-white/10 px-3 py-1.5 rounded-xl text-sm">
+        <span class="text-white/40 mr-2">🔍</span>
+        <input type="text" placeholder="Filter records..." class="bg-transparent border-none text-white focus:outline-none placeholder-white/30 text-xs w-36 sm:w-48" />
+      </div>
+      <!-- Add Button -->
+      <button class="flex items-center gap-1 bg-indigo-600 hover:bg-indigo-500 text-white px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all shadow-md shadow-indigo-600/20 cursor-pointer">
+        <span>➕</span> Add New
+      </button>
+    </div>
+  </div>
+
+  <!-- Responsive Data Table -->
+  <div class="overflow-x-auto">
+    <table class="w-full text-left border-collapse">
+      <thead>
+        <tr class="border-b border-white/10 text-white/40 text-xs uppercase tracking-wider bg-slate-950/20">
+          <th class="p-4 font-medium">Name</th>
+          <th class="p-4 font-medium">Type</th>
+          <th class="p-4 font-medium">Author</th>
+          <th class="p-4 font-medium">Popularity</th>
+          <th class="p-4 font-medium">Status</th>
+          <th class="p-4 font-medium text-right">Actions</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-white/5 text-sm">
+        <!-- Row 1 -->
+        <tr class="hover:bg-white/5 transition-colors">
+          <td class="p-4 font-medium text-white">dolphin-login</td>
+          <td class="p-4 text-white/60">auth-card</td>
+          <td class="p-4">shankar_dev</td>
+          <td class="p-4">
+            <div class="flex items-center gap-1.5">
+              <span class="text-rose-400">❤️</span> <span class="font-semibold text-xs">1,240</span>
+            </div>
+          </td>
+          <td class="p-4">
+            <span class="px-2 py-0.5 text-xs font-bold bg-emerald-500/20 text-emerald-300 rounded-md">Published</span>
+          </td>
+          <td class="p-4 text-right">
+            <div class="flex items-center justify-end gap-2">
+              <button class="p-1 hover:bg-slate-800 rounded text-indigo-400 hover:text-indigo-300 cursor-pointer" title="Edit">✏️</button>
+              <button class="p-1 hover:bg-slate-800 rounded text-rose-400 hover:text-rose-300 cursor-pointer" title="Delete">🗑️</button>
+            </div>
+          </td>
+        </tr>
+        <!-- Row 2 -->
+        <tr class="hover:bg-white/5 transition-colors">
+          <td class="p-4 font-medium text-white">dolphin-navbar</td>
+          <td class="p-4 text-white/60">navigation</td>
+          <td class="p-4">priya_dev</td>
+          <td class="p-4">
+            <div class="flex items-center gap-1.5">
+              <span class="text-rose-400">❤️</span> <span class="font-semibold text-xs">842</span>
+            </div>
+          </td>
+          <td class="p-4">
+            <span class="px-2 py-0.5 text-xs font-bold bg-emerald-500/20 text-emerald-300 rounded-md">Published</span>
+          </td>
+          <td class="p-4 text-right">
+            <div class="flex items-center justify-end gap-2">
+              <button class="p-1 hover:bg-slate-800 rounded text-indigo-400 hover:text-indigo-300 cursor-pointer" title="Edit">✏️</button>
+              <button class="p-1 hover:bg-slate-800 rounded text-rose-400 hover:text-rose-300 cursor-pointer" title="Delete">🗑️</button>
+            </div>
+          </td>
+        </tr>
+        <!-- Row 3 -->
+        <tr class="hover:bg-white/5 transition-colors">
+          <td class="p-4 font-medium text-white">dolphin-modal--dark</td>
+          <td class="p-4 text-white/60">layouts</td>
+          <td class="p-4">core_team</td>
+          <td class="p-4">
+            <div class="flex items-center gap-1.5">
+              <span class="text-rose-400">❤️</span> <span class="font-semibold text-xs">32</span>
+            </div>
+          </td>
+          <td class="p-4">
+            <span class="px-2 py-0.5 text-xs font-bold bg-amber-500/20 text-amber-300 rounded-md">Draft</span>
+          </td>
+          <td class="p-4 text-right">
+            <div class="flex items-center justify-end gap-2">
+              <button class="p-1 hover:bg-slate-800 rounded text-indigo-400 hover:text-indigo-300 cursor-pointer" title="Edit">✏️</button>
+              <button class="p-1 hover:bg-slate-800 rounded text-rose-400 hover:text-rose-300 cursor-pointer" title="Delete">🗑️</button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Pagination Controls -->
+  <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 p-4 border-t border-white/10 bg-slate-950/20 text-xs text-white/50">
+    <span>Showing 1 to 3 of 34 entries</span>
+    <div class="flex items-center gap-1">
+      <button class="px-3 py-1.5 rounded-lg hover:bg-white/5 border border-white/10 hover:text-white transition-colors cursor-pointer" disabled>Previous</button>
+      <button class="px-3 py-1.5 rounded-lg bg-indigo-600 border border-indigo-500 text-white transition-colors cursor-pointer">1</button>
+      <button class="px-3 py-1.5 rounded-lg hover:bg-white/5 border border-white/10 hover:text-white transition-colors cursor-pointer">2</button>
+      <button class="px-3 py-1.5 rounded-lg hover:bg-white/5 border border-white/10 hover:text-white transition-colors cursor-pointer">3</button>
+      <button class="px-3 py-1.5 rounded-lg hover:bg-white/5 border border-white/10 hover:text-white transition-colors cursor-pointer">Next</button>
+    </div>
+  </div>
+</div>

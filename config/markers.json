@@ -154,5 +154,17 @@
     "dolphin-rating": {
         "templateFile": "dolphin-rating.html",
         "addClasses": ""
+    },
+    "dolphin-admin-dashboard": {
+        "templateFile": "dolphin-admin-dashboard.html",
+        "addClasses": ""
+    },
+    "dolphin-crud-table": {
+        "templateFile": "dolphin-crud-table.html",
+        "addClasses": ""
+    },
+    "dolphin-crud-form": {
+        "templateFile": "dolphin-crud-form.html",
+        "addClasses": ""
     }
 }

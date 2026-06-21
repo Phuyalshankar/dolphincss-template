@@ -1,0 +1,74 @@
+<div class="glass border border-white/10 rounded-2xl overflow-hidden bg-slate-900 text-white max-w-xl mx-auto shadow-2xl">
+  <!-- Form Header -->
+  <div class="p-5 border-b border-white/10 bg-slate-950/40">
+    <h3 class="text-base font-bold text-white">Create Component Record</h3>
+    <p class="text-white/40 text-xs mt-0.5">Fill out the fields below to add a new design element to the bank.</p>
+  </div>
+
+  <!-- Form Body -->
+  <form class="p-6 flex flex-col gap-4">
+    <!-- Grid row: Name & Variant -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div>
+        <label class="block text-xs font-semibold text-white/60 mb-1.5" for="comp-name">Component Name *</label>
+        <input type="text" id="comp-name" placeholder="e.g. dolphin-login" class="w-full bg-slate-800 border border-white/10 px-3 py-2 rounded-xl text-sm text-white focus:outline-none focus:border-indigo-500 transition-colors" required />
+      </div>
+      <div>
+        <label class="block text-xs font-semibold text-white/60 mb-1.5" for="comp-variant">Variant</label>
+        <select id="comp-variant" class="w-full bg-slate-800 border border-white/10 px-3 py-2 rounded-xl text-sm text-white focus:outline-none focus:border-indigo-500 transition-colors">
+          <option value="default">default</option>
+          <option value="glass">glass</option>
+          <option value="minimal">minimal</option>
+          <option value="dark">dark</option>
+          <option value="pro">pro</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Grid row: Category & Version -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div>
+        <label class="block text-xs font-semibold text-white/60 mb-1.5" for="comp-category">Category</label>
+        <select id="comp-category" class="w-full bg-slate-800 border border-white/10 px-3 py-2 rounded-xl text-sm text-white focus:outline-none focus:border-indigo-500 transition-colors">
+          <option value="general">general</option>
+          <option value="forms">forms</option>
+          <option value="layouts">layouts</option>
+          <option value="interactive">interactive</option>
+          <option value="navigation">navigation</option>
+        </select>
+      </div>
+      <div>
+        <label class="block text-xs font-semibold text-white/60 mb-1.5" for="comp-version">Version</label>
+        <input type="text" id="comp-version" value="1.0.0" class="w-full bg-slate-800 border border-white/10 px-3 py-2 rounded-xl text-sm text-white focus:outline-none focus:border-indigo-500 transition-colors" />
+      </div>
+    </div>
+
+    <!-- Input: Tags -->
+    <div>
+      <label class="block text-xs font-semibold text-white/60 mb-1.5" for="comp-tags">Tags (comma-separated)</label>
+      <input type="text" id="comp-tags" placeholder="e.g. auth, card, dark" class="w-full bg-slate-800 border border-white/10 px-3 py-2 rounded-xl text-sm text-white focus:outline-none focus:border-indigo-500 transition-colors" />
+    </div>
+
+    <!-- Textarea: Description -->
+    <div>
+      <label class="block text-xs font-semibold text-white/60 mb-1.5" for="comp-desc">Short Description</label>
+      <textarea id="comp-desc" rows="2" placeholder="Describe the layout aesthetics, animation, or properties..." class="w-full bg-slate-800 border border-white/10 px-3 py-2 rounded-xl text-sm text-white focus:outline-none focus:border-indigo-500 transition-colors resize-none"></textarea>
+    </div>
+
+    <!-- Textarea: Code -->
+    <div>
+      <label class="block text-xs font-semibold text-white/60 mb-1.5" for="comp-code">Component Code (HTML/JSX) *</label>
+      <textarea id="comp-code" rows="5" placeholder="<div class=&quot;card glass&quot;> ... </div>" class="w-full bg-slate-800 border border-white/10 px-3 py-2 rounded-xl text-xs text-white focus:outline-none focus:border-indigo-500 transition-colors font-mono resize-none" required></textarea>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="flex items-center justify-end gap-2 mt-2 pt-4 border-t border-white/5">
+      <button type="button" class="px-4 py-2 hover:bg-white/5 border border-white/10 rounded-xl text-xs font-bold text-white transition-colors cursor-pointer">
+        Cancel
+      </button>
+      <button type="submit" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold transition-all shadow-md shadow-indigo-600/20 cursor-pointer">
+        Save Component
+      </button>
+    </div>
+  </form>
+</div>
