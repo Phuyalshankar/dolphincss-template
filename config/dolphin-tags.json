@@ -1,0 +1,5302 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "dolphin-accordion",
+      "description": "🐬 Inject Accordion component — hit Save to expand"
+    },
+    {
+      "name": "dolphin-avatar",
+      "description": "🐬 Inject Avatar component — hit Save to expand"
+    },
+    {
+      "name": "dolphin-checkbox",
+      "description": "🐬 Inject Checkbox component — hit Save to expand"
+    },
+    {
+      "name": "dolphin-tabs",
+      "description": "🐬 Inject Tabs component — hit Save to expand"
+    },
+    {
+      "name": "dolphin-login",
+      "description": "🐬 Inject Login form — hit Save to expand"
+    },
+    {
+      "name": "dolphin-register",
+      "description": "🐬 Inject Register form — hit Save to expand"
+    },
+    {
+      "name": "dolphin-form-floating",
+      "description": "🐬 Inject Floating Label Form — hit Save to expand"
+    },
+    {
+      "name": "dolphin-form-standard",
+      "description": "🐬 Inject Standard Label Form — hit Save to expand"
+    },
+    {
+      "name": "dolphin-table",
+      "description": "🐬 Inject Responsive Data Table — hit Save to expand"
+    },
+    {
+      "name": "dolphin-toast",
+      "description": "🐬 Inject Notification Toast — hit Save to expand"
+    },
+    {
+      "name": "dolphin-modal",
+      "description": "🐬 Inject Dialog Modal — hit Save to expand"
+    },
+    {
+      "name": "dolphin-button",
+      "description": "🐬 Inject Button Variants Showcase — hit Save to expand"
+    },
+    {
+      "name": "dolphin-card",
+      "description": "🐬 Inject Glassmorphic Card — hit Save to expand"
+    },
+    {
+      "name": "dolphin-navbar",
+      "description": "🐬 Inject Navigation Bar — hit Save to expand"
+    },
+    {
+      "name": "dolphin-alert",
+      "description": "🐬 Inject Alert Box — hit Save to expand"
+    },
+    {
+      "name": "dolphin-badge",
+      "description": "🐬 Inject Status Badges — hit Save to expand"
+    },
+    {
+      "name": "dolphin-header",
+      "description": "🐬 Inject Modern Header — hit Save to expand"
+    },
+    {
+      "name": "dolphin-footer",
+      "description": "🐬 Inject Premium Footer — hit Save to expand"
+    },
+    {
+      "name": "dolphin-grid",
+      "description": "🐬 Inject Responsive Grid — hit Save to expand"
+    },
+    {
+      "name": "dolphin-dashboard",
+      "description": "🐬 Inject Dashboard layout — hit Save to expand"
+    },
+    {
+      "name": "dolphin-switch",
+      "description": "🐬 Inject Toggle Switch — hit Save to expand"
+    },
+    {
+      "name": "dolphin-tooltip",
+      "description": "🐬 Inject Tooltip — hit Save to expand"
+    },
+    {
+      "name": "dolphin-slider",
+      "description": "🐬 Inject Range Slider — hit Save to expand"
+    },
+    {
+      "name": "dolphin-dropdown",
+      "description": "🐬 Inject Dropdown Menu — hit Save to expand"
+    },
+    {
+      "name": "dolphin-popover",
+      "description": "🐬 Inject Popover — hit Save to expand"
+    },
+    {
+      "name": "dolphin-skeleton",
+      "description": "🐬 Inject Skeleton Loader — hit Save to expand"
+    },
+    {
+      "name": "dolphin-progress",
+      "description": "🐬 Inject Progress Bar — hit Save to expand"
+    },
+    {
+      "name": "dolphin-theme-bar",
+      "description": "🐬 Inject Theme Bar — hit Save to expand"
+    },
+    {
+      "name": "dolphin-drawer",
+      "description": "🐬 Inject Off-canvas Drawer — hit Save to expand"
+    },
+    {
+      "name": "dolphin-breadcrumbs",
+      "description": "🐬 Inject Breadcrumbs — hit Save to expand"
+    },
+    {
+      "name": "dolphin-pagination",
+      "description": "🐬 Inject Pagination — hit Save to expand"
+    },
+    {
+      "name": "dolphin-steps",
+      "description": "🐬 Inject Progress Stepper — hit Save to expand"
+    },
+    {
+      "name": "dolphin-hero",
+      "description": "🐬 Inject Hero Section — hit Save to expand"
+    },
+    {
+      "name": "dolphin-pricing",
+      "description": "🐬 Inject Pricing Table — hit Save to expand"
+    },
+    {
+      "name": "dolphin-carousel",
+      "description": "🐬 Inject Image Carousel — hit Save to expand"
+    },
+    {
+      "name": "dolphin-timeline",
+      "description": "🐬 Inject Activity Timeline — hit Save to expand"
+    },
+    {
+      "name": "dolphin-dropzone",
+      "description": "🐬 Inject Drag & Drop Upload — hit Save to expand"
+    },
+    {
+      "name": "dolphin-chat",
+      "description": "🐬 Inject Chat Interface — hit Save to expand"
+    },
+    {
+      "name": "dolphin-rating",
+      "description": "🐬 Inject Star Rating — hit Save to expand"
+    },
+    {
+      "name": "dolphin-admin-dashboard",
+      "description": "🐬 Inject Admin Dashboard — hit Save to expand"
+    },
+    {
+      "name": "dolphin-crud-table",
+      "description": "🐬 Inject CRUD Table — hit Save to expand"
+    },
+    {
+      "name": "dolphin-crud-form",
+      "description": "🐬 Inject CRUD Form — hit Save to expand"
+    },
+    {
+      "name": "dolphin-routing",
+      "description": "🐬 Inject File-based Auto Router — hit Save to expand"
+    },
+    {
+      "name": "dolphin-store",
+      "description": "🐬 Inject Global State Manager — hit Save to expand"
+    },
+    {
+      "name": "dolphin-middleware",
+      "description": "🐬 Inject Route Auth Guard — hit Save to expand"
+    },
+    {
+      "name": "dolphin-i18n",
+      "description": "🐬 Inject Multi-language i18n — hit Save to expand"
+    },
+    {
+      "name": "dolphin-api",
+      "description": "🐬 Inject Smart API Client — hit Save to expand"
+    },
+    {
+      "name": "dolphin-theme",
+      "description": "🐬 Inject Runtime Theme Switcher — hit Save to expand"
+    },
+    {
+      "name": "dolphin-loader",
+      "description": "Dolphin marker - expands dolphin-loader.html"
+    },
+    {
+      "name": "dolphin-loading-button",
+      "description": "Dolphin marker - expands dolphin-loading-button.html"
+    },
+    {
+      "name": "dolphin-file-tree",
+      "description": "Dolphin marker - expands dolphin-file-tree.html"
+    }
+  ],
+  "globalAttributes": [
+    {
+      "name": "class",
+      "valueSet": "dolphin-classes"
+    },
+    {
+      "name": "className",
+      "valueSet": "dolphin-classes"
+    }
+  ],
+  "valueSets": [
+    {
+      "name": "dolphin-classes",
+      "values": [
+        {
+          "name": "-bottom-80",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "-left-80",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "-right-80",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "-top-80",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "-translate-x-1/2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "-translate-y-1/2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "-z-10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "absolute",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "absolute-bottom",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "absolute-bottom-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "absolute-bottom-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "absolute-bottom-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "absolute-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "absolute-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "absolute-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "absolute-top",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "absolute-top-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "absolute-top-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "absolute-top-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "absolute-x-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "absolute-y-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "accent",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "active",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-main-content",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-avatar",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-brand",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-close",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-header",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-icon",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-item",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-items",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-logo",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-overlay",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-section",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-text",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-title",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-toggle",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-tooltip",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-user",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-user-info",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-user-name",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "admin-nav-user-role",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "angle-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "angle-135",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "angle-180",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "angle-225",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "angle-270",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "angle-315",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "angle-45",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "angle-90",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "animate-alternate",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "animate-alternate-reverse",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "animate-backwards",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "animate-both",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "animate-forwards",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "animate-infinite",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "animate-normal",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "animate-once",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "animate-pulse",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "animate-reverse",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "animate-twice",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "animation-none",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "animation-paused",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "animation-running",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "aqua-depth",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "asc",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "aspect-[4/3]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "auto",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "backdrop-blur-2xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "backdrop-blur-md",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "backdrop-blur-sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "backdrop-filter",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "background",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "badge",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "badge-corner",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "badge-danger",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "badge-info",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "badge-success",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "badge-warning",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-[color:var(--color-surface)]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-accent",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-amber-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-amber-500/20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-blue-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-border/50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-danger",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-danphe",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-danphe-glass",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-emerald-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-emerald-500/20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-gray-100",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-indigo-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-indigo-500/20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-indigo-600",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-indigo-600/20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-info",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-laligurans",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-laligurans-glass",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-lumbini",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-lumbini-glass",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-machhapuchhre",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-machhapuchhre-glass",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-munal",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-munal-glass",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-mustang",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-mustang-glass",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-primary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-rose-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-sagarmatha",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-sagarmatha-glass",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-slate-700",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-slate-800",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-slate-800/80",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-slate-900",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-slate-900/50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-slate-950",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-slate-950/20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-slate-950/40",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-success",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-surface",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-surface-alt",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-surface-dark",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-surface-dark/10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-surface-dark/60",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-surface-dark/80",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-surface/40",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-surface/60",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-surface/80",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-tilicho",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-tilicho-glass",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-transparent",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-transparent!",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-warning",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-white/10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bg-white/5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "blend-darken",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "blend-lighten",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "blend-multiply",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "blend-normal",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "blend-overlay",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "blend-screen",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "blend-soft-light",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "block",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "blur",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "blur-2xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "blur-3xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "blur-bg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "blur-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "blur-md",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "blur-sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-[var(--color-border)]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-animation",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-b",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-border",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-border/20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-border/50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-collapse",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-danger",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-danphe",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-indigo-400",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-indigo-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-indigo-500/20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-indigo-500/30",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-info",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-l",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-none",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-primary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-r",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-success",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-t",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-transparent",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-warning",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-white/10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-white/20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-white/30",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-white/5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-x",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "border-y",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bordered",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bottom",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bottom-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bottom-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bottom-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bottom-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bottom-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bottom-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bottom-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bottom-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bottom-full",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bottom-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bottom-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bottom-sheet",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bounce",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "brightness-100",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "brightness-125",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "brightness-50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "brightness-75",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "broken-link",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "btn-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "btn-md",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "btn-sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "btn-xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "btn-xs",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "bubble",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "button-icon-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "button-icon-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "card",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "card-actions",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "card-checkbox",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "card-danger",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "card-gradient",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "card-info",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "card-primary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "card-secondary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "card-success",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "card-warning",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-card",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-card-actions",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-card-content",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-card-footer",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-card-header",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-card-stat",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-card-stat-label",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-card-stat-value",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-card-stats",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-card-subtitle",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-card-title",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-card-trend",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-container",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-legend",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-legend-color",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-legend-item",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "chart-tooltip",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "circle",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "col",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "col-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "col-10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "col-11",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "col-12",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "col-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "col-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "col-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "col-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "col-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "col-7",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "col-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "col-9",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "col-span-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "collapsed",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "color-danger",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "color-danphe",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "color-info",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "color-primary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "color-success",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "color-text",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "color-text-light",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "color-text-muted",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "color-warning",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "com",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "compact",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "conic",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "conic-45",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "conic-90",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "contain",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "container",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "container-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "container-sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "contents",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "contrast-150",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "contrast-50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "cover",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "crystal-glass",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "cursor-not-allowed",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "cursor-pointer",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "cyber-neon",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danger",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danger-100",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danger-200",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danger-300",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danger-400",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danger-50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danger-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danger-600",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danger-700",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danger-800",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danger-900",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danger-950",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danphe",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danphe-forest",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danphe-gradient",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danphe-only",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "danphe-sunset",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "dark",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "deep-dolphin",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "deep-water",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "delay-100",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "delay-1000",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "delay-200",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "delay-300",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "delay-400",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "delay-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "desc",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "desktop-hidden",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "desktop-only",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "desktop-text-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "desktop-text-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "desktop-text-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "disabled",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "divide-white/5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "divide-y",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "dolphin",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "dolphin-action-btn",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "dolphin-gradient",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "dolphin-missing-message",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "dolphin-only",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "dolphin-scrollbar",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "dolphin-swimming-deep",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "drop-shadow-md",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "duration-100",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "duration-1000",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "duration-200",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "duration-2000",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "duration-300",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "duration-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "duration-700",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "ease-bounce",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "ease-elastic",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "ease-in",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "ease-in-out",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "ease-linear",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "ease-out",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "error-code",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "error-container-404",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "error-digit",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "error-graphic-404",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "error-message-404",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "error-number-404",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "error-text",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "error-title-404",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "exiting",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fade-in",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fade-out",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fill-current",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "filled",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "filter",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "filter-actions",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "filter-btn",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "filter-group",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "filter-reset",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "filter-transition",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "filtered-out",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fixed",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flex",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flex-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flex-around",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flex-between",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flex-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flex-col",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flex-col-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flex-col-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flex-col-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flex-grow",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flex-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flex-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flex-wrap",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flip-x",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "flip-y",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "float",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "float-fast",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "float-slow",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "floating-elements",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "floatinglabel",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "floatinglabel-input",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "floatinglabel-label",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "focus:border-indigo-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "focus:outline-none",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "font-bold",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "font-medium",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "font-mono",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "font-semibold",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "footer-info",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "frosted-aurora",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "full",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fullscreen",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fx-aqua",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fx-aurora",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fx-crystal",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fx-cyber",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fx-flare",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fx-float",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fx-glass",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fx-holo",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fx-metal",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fx-nebula",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fx-neon",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "fx-rainbow",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "galactic-nebula",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gap-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gap-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gap-1.5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gap-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gap-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gap-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gap-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gap-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gap-7",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gap-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "glass",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "glass-dark",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "glass-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "glass-sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "glass-tilt",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "glass-wave",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "glow",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "glow-danger",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "glow-danphe",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "glow-info",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "glow-primary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "glow-pulse",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "glow-success",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "glow-warning",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-7",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-9",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-danphe",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-dark",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-flow",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-light",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-md",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-primary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-secondary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "gradient-xs",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "grayscale",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "grid",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "grid-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "grid-col-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "grid-col-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "grid-col-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "grid-cols-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "grid-cols-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "group",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "group-hover:opacity-100",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "group-hover:overlay",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "group-hover:scale-110",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "group-hover:visible",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-[400px]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-[600px]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-1.5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-1/2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-1/3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-1/4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-1/5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-12",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-16",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-2/3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-2/5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-24",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-3/4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-3/5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-32",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-4/5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-40",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-48",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-56",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-64",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-7",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-72",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-80",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-9",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-96",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-auto",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-fit",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-full",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-max",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-min",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-px",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "h-screen",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "has-error",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "heartbeat",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hidden",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "himalayan-gradient",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "holo-matrix",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "home-button-404",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "horizontal",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-bounce",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-glow",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-jelly",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-lift",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-pulse",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-ripple",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-rotate",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-rotate-10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-rotate-15",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-rotate-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-scale",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-scale-105",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-scale-110",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-scale-125",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-shake",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-shrink",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-skew-x-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-skew-y-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-slide-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-slide-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-translate-y-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-translate-y-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-translate-y-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover-wave",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:-translate-y-0.5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:-translate-y-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:bg-blue-600",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:bg-danger/10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:bg-indigo-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:bg-primary/20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:bg-slate-800",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:bg-surface",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:bg-surface-alt",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:bg-surface/80",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:bg-warning/20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:bg-white/10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:bg-white/20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:bg-white/5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:border-white",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:border-white/20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:opacity-100",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:opacity-80",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:opacity-90",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:scale-110",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:shadow-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:shadow-xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:text-indigo-300",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:text-primary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:text-rose-300",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:text-white",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "hover:underline",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "icon-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "icon-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "indeterminate",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "info",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "info-100",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "info-200",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "info-300",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "info-400",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "info-50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "info-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "info-600",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "info-700",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "info-800",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "info-900",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "info-950",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "inline",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "inline-block",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "inline-flex",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "input-icon",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "input-icon-both",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "input-icon-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "input-icon-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "input-icon-md",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "input-icon-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "input-icon-sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "inset-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "invisible",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "items-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "items-end",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "justify-between",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "justify-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "justify-end",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "justify-start",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "kpi-card",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "kpi-change",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "kpi-chart",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "kpi-text",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "kpi-title",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "kpi-value",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "large",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "last:border-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "leading-relaxed",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "left-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "left-0!",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "left-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "left-1/2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "left-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "left-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "left-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "left-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:-bottom-96",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:-left-96",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:-right-96",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:-top-96",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:grid-cols-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:h-[600px]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:h-[800px]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:p-10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:p-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:w-[600px]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:w-[800px]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:w-1/2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:w-1/3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:w-2/3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "lg:w-full",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "line-clamp-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "liquid-mercury",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "loader-dolphin-jump",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "loader-dolphin-jump-small",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "loading",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "loading-skeleton",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "loading-spinner",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "loading-text",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "m-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "m-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "m-10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "m-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "m-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "m-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "m-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "m-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "m-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-h-[90vh]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-h-full",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-h-screen",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-w-2xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-w-3xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-w-4xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-w-5xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-w-6xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-w-7xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-w-full",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-w-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-w-md",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-w-screen",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-w-sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-w-xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "max-w-xs",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mb-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mb-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mb-1.5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mb-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mb-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mb-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mb-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mb-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "md",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "md:block",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "md:col-span-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "md:flex",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "md:grid-col-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "md:grid-col-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "md:grid-col-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "md:grid-cols-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "md:p-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "md:px-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "md:w-1/2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "md:w-1/3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "md:w-2/3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "md:w-full",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "medium",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "min-h-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "min-h-full",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "min-h-screen",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "min-w-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "min-w-full",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "ml-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "ml-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mobile-cards",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mobile-hidden",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mobile-menu-trigger",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mobile-only",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mobile-open",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mobile-text-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mobile-text-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mobile-text-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "modal",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "modal-body",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "modal-bottom",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "modal-container",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "modal-footer",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "modal-header",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "modal-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "modal-panel",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "modal-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "modal-top",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "modal-wrapper",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "motion",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "motion-fast",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "motion-safe-fade-in",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "motion-safe-slide-up",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "motion-slow",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "motion-smooth",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mr-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mt-0.5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mt-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mt-12",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mt-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mt-20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mt-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mt-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mt-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mt-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mt-auto",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "muted",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mx-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "mx-auto",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "my-10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "my-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "my-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "my-auto",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "nav-brand",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "nav-container",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "nav-dropdown",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "nav-li",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "nav-mobile",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "nav-search-clear",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "nav-search-container",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "nav-search-icon",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "nav-search-input",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "nav-toggle",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "nav-ul",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "nav-ul-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "nav-ul-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "negative",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "neon-flicker",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "neon-flow",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "no-data",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "no-repeat",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "not-found-description",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "not-found-dolphin-container",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "not-found-title",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "object-cover",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "ocean-gradient",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "opacity-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "opacity-10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "opacity-20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "opacity-25",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "opacity-50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "opacity-70",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "opacity-75",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "opacity-80",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "opacity-90",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "outline",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "outlined",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overflow-auto",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overflow-hidden",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overflow-scroll",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overflow-visible",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overflow-x-auto",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overflow-y-auto",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-7",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-9",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-absolute",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-accent",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-accent-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-accent-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-accent-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-accent-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-accent-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-accent-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-accent-7",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-accent-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-accent-9",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-blur-2xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-blur-3xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-blur-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-blur-md",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-blur-none",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-blur-sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-blur-xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-bottom",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-danger",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-danger-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-danger-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-danger-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-danger-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-danger-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-danger-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-danger-7",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-danger-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-danger-9",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-dark",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-dark-25",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-dark-50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-dark-75",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-fade",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-fixed",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-glass",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-glass-dark",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-hover",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-info",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-info-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-info-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-info-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-info-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-info-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-info-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-info-7",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-info-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-info-9",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-light",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-pattern-dots",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-pattern-grid",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-pattern-lines",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-pointer-auto",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-pointer-none",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-primary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-primary-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-primary-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-primary-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-primary-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-primary-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-primary-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-primary-7",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-primary-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-primary-9",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-relative",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-secondary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-secondary-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-secondary-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-secondary-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-secondary-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-secondary-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-secondary-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-secondary-7",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-secondary-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-secondary-9",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-success",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-success-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-success-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-success-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-success-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-success-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-success-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-success-7",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-success-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-success-9",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-top",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-warning",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-warning-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-warning-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-warning-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-warning-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-warning-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-warning-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-warning-7",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-warning-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-warning-9",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-z-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-z-10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-z-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-z-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-z-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-z-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-z-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-z-7",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-z-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-z-9",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "overlay-z-max",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "p-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "p-0.5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "p-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "p-1.5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "p-10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "p-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "p-2.5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "p-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "p-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "p-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "p-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "p-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "page-404",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "pagination-btn",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "pagination-ellipsis",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "particle",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "particle-container",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "pattern-dots",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "pattern-grid",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "pattern-lines",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "pb-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "pb-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "placeholder-white/30",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "placeholder:text-transparent",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "plain",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "pointer-events-none",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "positive",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "primary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "primary-100",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "primary-200",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "primary-300",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "primary-400",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "primary-50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "primary-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "primary-600",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "primary-700",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "primary-800",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "primary-900",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "primary-950",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "progress-bar",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "progress-cell",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "progress-circle",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "progress-circle-fill",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "progress-circle-track",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "progress-fill",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "psychedelic-dream",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "pt-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "pt-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "pull-indicator",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "pulse",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "px-0!",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "px-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "px-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "px-3.5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "px-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "px-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "px-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "py-0.5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "py-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "py-1.5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "py-12",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "py-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "py-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "py-3.5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "py-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "quantum-float",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "radial",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "radial-bottom",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "radial-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "radial-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "radial-top",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "radio-group",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "radio-item",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "radio-label",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "relative",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "repeat",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "repeat-x",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "repeat-y",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "resize",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "resize-none",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "responsive",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "right-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "right-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "right-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "right-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "right-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "right-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "right-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "rotate-3d",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "rounded",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "rounded-2xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "rounded-3xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "rounded-full",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "rounded-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "rounded-md",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "rounded-sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "rounded-t-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "rounded-xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "row",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "row-highlight",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "rows-per-page",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "safe-bottom",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "safe-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "safe-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "safe-top",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "scale-out",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "screen",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "scroll",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "scrollbar-hide",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "search-handle",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "search-magnifier",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "secondary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "secondary-100",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "secondary-200",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "secondary-300",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "secondary-400",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "secondary-50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "secondary-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "secondary-600",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "secondary-700",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "secondary-800",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "secondary-900",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "secondary-950",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "select",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "select-none",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "select-wrapper",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "selected",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sepia",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "shadow",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "shadow-2xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "shadow-blue-500/50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "shadow-indigo-500/30",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "shadow-indigo-600/20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "shadow-inner",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "shadow-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "shadow-md",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "shadow-sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "shadow-xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "shaking",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "shape-defined",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "shimmer",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "show",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "shrink-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "size-100",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "size-150",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "size-50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "size-75",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "size-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "size-md",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "size-sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "size-xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "size-xs",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "skeleton",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "skeleton-circle",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "skeleton-pulse",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "slide-in-bottom",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "slide-in-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "slide-in-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "slide-in-top",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "slide-out-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "slide-out-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "slide-up",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sm:flex-row",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sm:grid-cols-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sm:items-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sm:justify-between",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sm:p-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sm:p-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sm:w-1/2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sm:w-1/3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sm:w-2/3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sm:w-48",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sm:w-full",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "small",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "solar-flare",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sort-indicator",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sortable",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sorting-active",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "space-y-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "space-y-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "spin-fast",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "spin-medium",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "spin-slow",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "stack",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "stack-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "stack-sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "stagger-children",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "standardlabel",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "standardlabel-input",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "standardlabel-label",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "static",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "sticky",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "striped",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "strong",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "subtle",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "success",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "success-100",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "success-200",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "success-300",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "success-400",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "success-50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "success-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "success-600",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "success-700",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "success-800",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "success-900",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "success-950",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "table",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "table-badge",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "table-filter-container",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "table-filter-header",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "table-filters",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "table-footer",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "table-pagination",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "table-responsive",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "table-search",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "table-summary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-[color:var(--color-text)]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-2xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-3xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-amber-300",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-amber-400",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-base",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-black",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-emerald-300",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-emerald-400",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-gradient",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-indigo-300",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-indigo-400",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-lg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-primary",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-rose-400",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-slate-300",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-sm",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-text",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-text-light",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-text-muted",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-white",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-white/25",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-white/30",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-white/40",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-white/50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-white/60",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-white/70",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-white/80",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-white/90",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "text-xs",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "theme",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "theme-bg",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "theme-border",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "theme-color",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "theme-glass",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "theme-glow",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "theme-glow-hover",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "theme-gradient",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "theme-icon",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "theme-name",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-action-btn",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-actions",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-close",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-container",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-content",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-description",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-error",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-icon",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-icon-custom",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-icon-error",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-icon-info",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-icon-loader",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-icon-success",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-icon-warning",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-info",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-loader",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-progress",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-progress-bar",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-success",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-title",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "toast-warning",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "top",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "top-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "top-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "top-1/2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "top-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "top-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "top-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "top-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "top-center",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "top-full",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "top-left",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "top-right",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "touch-target",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "tracking-tight",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "tracking-wide",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "tracking-wider",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "transform",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "transition",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "transition-all",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "transition-colors",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "transition-opacity",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "transition-shadow",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "transition-transform",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "truncate",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "typewriter",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "uppercase",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "vertical-middle",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "visible",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-[400px]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-[600px]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-1",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-1.5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-1/2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-1/3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-12",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-16",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-2",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-2/3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-24",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-3",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-32",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-36",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-4",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-40",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-48",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-5",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-56",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-6",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-60",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-64",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-72",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-8",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-80",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-9",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-96",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-auto",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-fit",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-full",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-max",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-min",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-px",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "w-screen",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "warning",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "warning-100",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "warning-200",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "warning-300",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "warning-400",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "warning-50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "warning-500",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "warning-600",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "warning-700",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "warning-800",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "warning-900",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "warning-950",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "wave",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "whitespace-nowrap",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "will-change-all",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "will-change-opacity",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "will-change-transform",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "xl",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "xs",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "z-[100]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "z-[9999]",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "z-0",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "z-10",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "z-20",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "z-30",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "z-40",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "z-50",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "z-auto",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "zoom-in",
+          "description": "DolphinCSS utility class"
+        },
+        {
+          "name": "zoom-out",
+          "description": "DolphinCSS utility class"
+        }
+      ]
+    }
+  ]
+}
