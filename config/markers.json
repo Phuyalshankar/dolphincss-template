@@ -166,5 +166,9 @@
     "dolphin-crud-form": {
         "templateFile": "dolphin-crud-form.html",
         "addClasses": ""
+    },
+    "dolphin-system-dashboard": {
+        "templateFile": "dolphin-system-dashboard.jsx",
+        "addClasses": ""
     }
 }

@@ -170,28 +170,8 @@
       "description": "🐬 Inject CRUD Form — hit Save to expand"
     },
     {
-      "name": "dolphin-routing",
-      "description": "🐬 Inject File-based Auto Router — hit Save to expand"
-    },
-    {
-      "name": "dolphin-store",
-      "description": "🐬 Inject Global State Manager — hit Save to expand"
-    },
-    {
-      "name": "dolphin-middleware",
-      "description": "🐬 Inject Route Auth Guard — hit Save to expand"
-    },
-    {
-      "name": "dolphin-i18n",
-      "description": "🐬 Inject Multi-language i18n — hit Save to expand"
-    },
-    {
-      "name": "dolphin-api",
-      "description": "🐬 Inject Smart API Client — hit Save to expand"
-    },
-    {
-      "name": "dolphin-theme",
-      "description": "🐬 Inject Runtime Theme Switcher — hit Save to expand"
+      "name": "dolphin-system-dashboard",
+      "description": "🐬 Inject System Admin Dashboard — hit Save to expand"
     },
     {
       "name": "dolphin-loader",
