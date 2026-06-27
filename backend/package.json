@@ -8,6 +8,7 @@
     "dev": "node --watch app.js"
   },
   "dependencies": {
+    "dolphin-server-modules": "^2.14.1",
     "dotenv": "^16.4.5",
     "mongoose": "^8.0.0"
   }

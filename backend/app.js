@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import { createDolphinServer } from 'dolphin-server-modules/server';
@@ -35,11 +37,10 @@ app.use((ctx, next) => {
 // Register template routes under /api/templates
 app.use('/api/templates', templateRoutes);
 
-// Serve static HTML/JS pages for UI Bank Web Portal
-import fs from 'fs';
-import path from 'path';
-
-const templateDir = path.resolve(process.cwd(), '..');
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const templateDir = path.resolve(__dirname, '..');
 
 // Helper to serve file safely
 const serveFile = (ctx, fileName, contentType) => {
