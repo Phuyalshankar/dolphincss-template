@@ -170,5 +170,9 @@
     "dolphin-system-dashboard": {
         "templateFile": "dolphin-system-dashboard.jsx",
         "addClasses": ""
+    },
+    "dolphin-home": {
+        "templateFile": "dolphin-home.html",
+        "addClasses": ""
     }
 }
